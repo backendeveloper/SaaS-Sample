@@ -1,0 +1,47 @@
+{
+  "language": "typescript",
+  "app": "npx ts-node main.ts",
+  "codeMakerOutput": "imports",
+  "projectId": "b8506786-b8ba-4df3-9200-b9f32e21395a",
+  "sendCrashReports": "true",
+  "terraformProviders": [
+    {
+      "name": "aws",
+      "source": "hashicorp/aws"
+    }
+  ],
+  "terraformModules": [
+    {
+      "name": "lambda",
+      "source": "terraform-aws-modules/lambda/aws"
+    },
+    {
+      "name": "bucket",
+      "source": "terraform-aws-modules/s3-bucket/aws"
+    },
+    {
+      "name": "dynamodb-table",
+      "source": "terraform-aws-modules/dynamodb-table/aws"
+    },
+    {
+      "name": "cloudfront",
+      "source": "terraform-aws-modules/cloudfront/aws"
+    },
+    {
+      "name": "http-api",
+      "source": "terraform-aws-modules/apigateway-v2/aws"
+    },
+    {
+      "name": "certificate",
+      "source": "terraform-aws-modules/acm/aws"
+    },
+    {
+      "name": "records",
+      "source": "terraform-aws-modules/route53/aws//modules/records"
+    }
+  ],
+  "context": {
+    "excludeStackIdFromLogicalIds": "true",
+    "allowSepCharsInLogicalIds": "true"
+  }
+}

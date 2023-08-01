@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "types": ["@emotion/core"],
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@masraff/*": ["./src/@masraff/*"],
+      "@history*": ["./src/@history"],
+      "@assets*": ["./public/assets/*"],
+      "app/store/*": ["./src/app/store/*"],
+      "app/shared-components/*": ["./src/app/shared-components/*"],
+      "app/configs/*": ["./src/app/configs/*"],
+      "app/theme-layouts/*": ["./src/app/theme-layouts/*"],
+      "app/AppContext": ["./src/app/AppContext"],
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}

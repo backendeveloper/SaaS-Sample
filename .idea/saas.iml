@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/layer/auth-service/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/layer/database-service/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/layer/util-service/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/pooled/lambda/pooled-authorizer/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/pooled/lambda/product-service/get-products/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/shared/lambda/shared-authorizer/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/shared/lambda/tenant-management/create-tenant/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/shared/lambda/tenant-management/get-tenants/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/shared/lambda/tenant-management/register-tenant/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/shared/lambda/user-management/create-tenant-admin-user/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/shared/lambda/user-management/create-user/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/shared/lambda/user-management/get-users/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/cdktf.out" />
+      <excludeFolder url="file://$MODULE_DIR$/clients/admin/client-old/.angular" />
+      <excludeFolder url="file://$MODULE_DIR$/clients/admin/client-old/.angular/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/clients/application/client-old/.angular" />
+      <excludeFolder url="file://$MODULE_DIR$/clients/application/client-old/.angular/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/clients/application/client-old/cypress/e2e" />
+      <excludeFolder url="file://$MODULE_DIR$/clients/application/client/out" />
+      <excludeFolder url="file://$MODULE_DIR$/clients/core/lambda/request/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/imports" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

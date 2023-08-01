@@ -1,0 +1,89 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@hookform/resolvers": "^3.1.1",
+    "@mui/material": "^5.13.6",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "@mui/x-date-pickers": "^6.9.0",
+    "@popperjs/core": "^2.11.8",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "aws-amplify": "^5.3.3",
+    "axios": "^1.4.0",
+    "clsx": "^1.2.1",
+    "craco-swc": "^0.5.1",
+    "date-fns": "^2.30.0",
+    "framer-motion": "^10.12.17",
+    "history": "^5.3.0",
+    "i18next": "^23.2.3",
+    "lodash": "^4.17.21",
+    "mobile-detect": "^1.4.5",
+    "notistack": "^3.0.1",
+    "perfect-scrollbar": "^1.5.5",
+    "qs": "^6.11.2",
+    "react": "^18.2.0",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.2",
+    "react-i18next": "^13.0.1",
+    "react-popper": "^2.3.0",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.13.0",
+    "react-scripts": "5.0.1",
+    "redux-logger": "^3.0.6",
+    "styled-components": "^6.0.2",
+    "stylis": "^4.3.0",
+    "stylis-plugin-rtl": "^2.1.1",
+    "typescript": "^4.4.2",
+    "web-vitals": "^2.1.0",
+    "yup": "^1.2.0"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/lodash": "^4.14.195",
+    "@types/qs": "^6.9.7",
+    "@types/react-redux": "^7.1.25",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/redux-logger": "^3.0.9",
+    "craco": "^0.0.3",
+    "craco-alias": "^3.0.1",
+    "react-app-alias": "^2.2.2",
+    "tailwindcss": "^3.3.2"
+  }
+}

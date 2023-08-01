@@ -1,0 +1,46 @@
+/*----------------------------------------------------------------*/
+/*  Print
+/*----------------------------------------------------------------*/
+@media all {
+    /* Never show page breaks in normal view */
+    .page-break-after,
+    .page-break-before {
+        display: none;
+    }
+}
+
+@media print {
+    /* html and body tweaks */
+    html, body {
+        height: auto !important;
+        overflow: initial !important;
+        background: none
+    }
+
+    /* Page breaks */
+    .page-break-after {
+        display: block;
+        page-break-after: always;
+        position: relative;
+    }
+
+    .page-break-before {
+        display: block;
+        page-break-before: always;
+        position: relative;
+    }
+
+    /* General styles */
+    #masraff-toolbar,
+    #masraff-footer,
+    #masraff-navbar,
+    #masraff-settings-presets,
+    #masraff-layout .ps > .ps__rail-x,
+    #masraff-layout .ps > .ps__rail-y {
+        display: none !important;
+    }
+
+    #masraff-layout .ps {
+        overflow: visible !important;
+    }
+}
