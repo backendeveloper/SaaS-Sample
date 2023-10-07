@@ -37,7 +37,7 @@
     "next-redux-wrapper": "^8.1.0",
     "notistack": "^3.0.1",
     "perfect-scrollbar": "^1.5.5",
-    "postcss": "^8.4.24",
+    "postcss": "^8.4.31",
     "prismjs": "^1.29.0",
     "qs": "^6.11.2",
     "react": "^18.2.0",
