@@ -32,7 +32,7 @@
     "lodash": "^4.17.21",
     "mobile-detect": "^1.4.5",
     "moment": "^2.29.4",
-    "next": "^13.4.5",
+    "next": "^13.5.0",
     "next-i18next": "^14.0.0",
     "next-redux-wrapper": "^8.1.0",
     "notistack": "^3.0.1",
